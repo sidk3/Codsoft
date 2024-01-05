@@ -1,51 +1,42 @@
 import java.util.*;
 
-class t1
-{
- public static void main(String args[])
- {
-  Scanner s=new Scanner(System.in);
-
-  int z;
-  String agg="";
-  int maxr=100,minr=1;
-  int att=0,matt=3;
-  boolean g=false;
-  boolean ag=true;
-  while(ag)
-  {
-   System.
-  while(att<matt)
-  {
-  if(z==x)
-  {
-   System.out.println("Correct number");
-   g=true;
-   att++;
-   break;
-  }
-  else if(z>x)
-   {
+class t1 {
+    public static void main(String args[]) {
+ Scanner s = new Scanner(System.in);
+ int z, x;
+ String agg;
+ int maxr = 100, minr = 1;
+int att, matt = 3;
+boolean g;
+boolean ag;
+do {
+z =(int)(Math.random() * 100)+1;
+ att = 0;
+g = false;
+  ag = true;
+  while (att < matt) {
+    System.out.print("Enter your guess: ");
+    x = s.nextInt();
+   s.nextLine(); 
+   if (z == x) {
+    System.out.println("Correct number");
+    g = true;
+     break;
+    } else if (z > x) {
+    System.out.println("Number too low");
+    } else {
    System.out.println("Number too high");
+   }
    att++;
-   }
-  else if(z<x)
-   {
-   System.out.println("Number too low");
-   att++;
-   }
-   }
-  if(!g)
-   System.out.println("Your chances are completed");
-
- System.out.println("Correct number was "+z);
- System.out.println("Play again?(y/n)");
- s.nextLine();
- agg=s.nextLine();
- ag=agg.equals("y");
-   }
   }
-  System.out.println("Thanks for playing!");
-  
- }
+  if (!g) {
+     System.out.println("Your chances are completed");
+   System.out.println("Correct number was " + z);
+    }
+   System.out.print("Play again? (y/n): ");
+  agg = s.nextLine();
+   ag = agg.equals("y");
+} while (ag);
+System.out.println("Thanks for playing!");
+      }
 }
