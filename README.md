@@ -1,1 +1,1 @@
-Welcome! These are the 4 tasks I completed as part of my four-week Java Development internship at Codsoft. I'm thankful to Codsoft for providing me with this opportunity to showcase my skils and also for equipping me with some new ones.
+Welcome! These are the four tasks I completed as part of my four-week Java Development internship at Codsoft. I'm thankful to Codsoft for providing me with this opportunity to showcase my skils and also for equipping me with some new ones.
